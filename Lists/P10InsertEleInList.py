@@ -1,0 +1,5 @@
+l=list(eval(input()))
+position=int(input())
+obj=input()
+l.insert(position-1,obj)
+print(l)
